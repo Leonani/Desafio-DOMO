@@ -1,0 +1,29 @@
+.bg-footer-light{
+  background-color: #BB1626 !important;
+}
+.btn-footer-dark{
+  background-color: #F25B69;
+  width: 60px;
+  height: 55px;
+  border: none;
+  color: azure;
+}
+
+.btn-footer-dark:hover {
+  background-color: #950412;
+}
+
+.icons{
+  font-size: 25px;
+}
+
+@media (min-width: 992px) {
+  .img-footer {
+    width: 50%; /* Ajusta el porcentaje según lo desees */
+  }
+}
+@media (min-width: 768px) {
+  .img-footer {
+    width: 30%; /* Ajusta el porcentaje según lo desees */
+  }
+}

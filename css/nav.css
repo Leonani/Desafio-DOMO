@@ -1,0 +1,29 @@
+.navbar-toggler{
+  border: none !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.sz-titulo{
+  color: azure !important;
+  font-size: 30px !important;
+}
+
+a{
+  color: #fafafa !important;
+}
+
+.shadow-drop:hover {
+	animation: text-shadow-drop-tr 0.6s both;
+}
+
+@keyframes text-shadow-drop-tr {
+  0% {
+    text-shadow: 0 0 0 azure;
+  }
+  100% {
+    text-shadow: 6px -6px 3px #711c1c;
+  }
+}
+
